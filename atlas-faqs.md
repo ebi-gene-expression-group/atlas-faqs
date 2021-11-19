@@ -1,3 +1,8 @@
+---
+layout: default
+title: Expression Atlas FAQs
+---
+
 # Frequently Asked Questions
 
 ## General questions
