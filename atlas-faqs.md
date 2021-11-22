@@ -2,8 +2,6 @@
 layout: default
 title: Expression Atlas FAQs
 ---
-
-<div class="columns small-10">
   
 # Frequently Asked Questions
 
@@ -252,8 +250,6 @@ Gene set enrichment analysis is performed using the [Piano](https://www.biocondu
 Yes, click on the ![Download All Results button](assets/img/download-all-results-button.png) button above the heatmap to download the data corresponding to your query. For example, in [Transcription profiling by array of pancreatic islets from Sgpp2 knockout mice after high fat diet](/gxa/experiments/E-GEOD-73131) if you select just one comparison, e.g. 'high fat diet' vs 'normal' in 'Sgpp2 knockout' from the **Comparison** box and click Apply, by clicking on the **Download all results** button you will download [ expression data for the subset of genes differentially expressed in that particular comparison](/gxa/experiments/E-GEOD-73131/Results?specific=true&geneQuery=%255B%255D&filterFactors=%257B%2522COMPARISON_NAME%2522%253A%255B%2522%27high%2520fat%2520diet%27%2520vs%2520%27normal%27%2520in%2520%27Sgpp2%2520knockout%27%2522%255D%257D&cutoff=%257B%2522foldChange%2522%253A1%252C%2522pValue%2522%253A0.05%257D&regulation=%2522UP_DOWN%2522) in tab-delimited format with no ordering.
 
 On the other hand, by clicking on the _Downloads_ tab of the experiment page you will download expression data for all genes in all comparisons studied in the experiment.
-  </div>
-  <div class="columns small-2>
 
 #### Jump to...
 
@@ -300,4 +296,3 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 *   [Where do the _p_\-values come from?](#where-do-the-p-values-come-from)
 *   [How are the gene set enrichment plots created?](#how-are-the-gene-set-enrichment-plots-created)
 *   [Can I download the differential expression results?](#can-i-download-the-differential-expression-results)
-</div>
