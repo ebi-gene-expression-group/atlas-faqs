@@ -2,7 +2,9 @@
 layout: default
 title: Expression Atlas FAQs
 ---
+
 <div class="columns small-10">
+  
 # Frequently Asked Questions
 
 ## General questions
