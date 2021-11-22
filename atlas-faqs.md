@@ -4,6 +4,7 @@ title: Expression Atlas FAQs
 ---
 
 <div class="columns small-10" markdown="1">
+
 # Frequently Asked Questions
 
 ## General questions
@@ -252,6 +253,7 @@ Yes, click on the ![Download All Results button](assets/img/download-all-results
 
 On the other hand, by clicking on the _Downloads_ tab of the experiment page you will download expression data for all genes in all comparisons studied in the experiment.
 </div>
+
 <div class="columns small-2" markdown="1">
 
 #### Jump to...
