@@ -11,7 +11,7 @@ title: Expression Atlas FAQs
 
 ### What is Expression Atlas
 
-Expression Atlas is a resource to query gene and protein expression data across species and biological conditions and to visualise down-stream analysis results to explore co-expression. Queries can be either in a **baseline context**, e.g. [find genes expressed in the macaque brain](/gxa/search?organism=macaca%20mulatta&conditionQuery=%5B%7B%22value%22%3A%22brain%22%7D%5D), or in a **differential context**, e.g. [find genes that are up or downregulated in response to auxin in Arabidopsis](/gxa/search?geneQuery=%5B%5D&organism=Arabidopsis%20thaliana&conditionQuery=%5B%7B%22value%22%3A%22auxin%22%7D%5D&ds=%7B%22kingdom%22%3A%5B%22plants%22%5D%7D#differential). Expression Atlas contains thousands of selected microarray and RNA-sequencing data that are manually curated and annotated with ontology terms, checked for high quality and re-analysed using standardised methods.
+Expression Atlas is a resource to query gene and protein expression data across species and biological conditions and to visualise down-stream analysis results to explore co-expression. Queries can be either in a **baseline context**, e.g. <a href="https://www.ebi.ac.uk/gxa/search?organism=macaca%20mulatta&conditionQuery=%5B%7B%22value%22%3A%22brain%22%7D%5D" target="_blank">find genes expressed in the macaque brain</a>, or in a **differential context**, e.g. <a href="https://www.ebi.ac.uk/gxa/search?geneQuery=%5B%5D&organism=Arabidopsis%20thaliana&conditionQuery=%5B%7B%22value%22%3A%22auxin%22%7D%5D&ds=%7B%22kingdom%22%3A%5B%22plants%22%5D%7D#differential" target="_blank">find genes that are up or downregulated in response to auxin in Arabidopsis</a>. Expression Atlas contains thousands of selected microarray and RNA-sequencing data that are manually curated and annotated with ontology terms, checked for high quality and re-analysed using standardised methods.
 
 ### What experiments can be included in Expression Atlas?
 
@@ -21,7 +21,7 @@ To be included in Expression Atlas each experiment must meet all of the followin
 *   Raw data are available
 *   All samples within the dataset belong to a single species
 *   Samples come from non-bacterial species
-*   The species genome is available through [Ensembl](http://www.ensembl.org/index.html)
+*   The species genome is available through <a href="http://www.ensembl.org/index.html" target="_blank">Ensembl</a>
 *   Annotations for microarray probes are available
 *   Sufficient sample annotation is provided
 
@@ -33,11 +33,11 @@ Additionally, we employ several “softer” guidelines to determine whether or 
 *   Experimental metadata are of high quality and confidence
 *   The experimental design is not too complex (e.g. not too many factors) and allows for straightforward one-to-one comparisons
 
-If an experiment is judged to be of particular interest and its inclusion in Expression Atlas is highly valuable for the community, we may decide to include it even if it fails some of the above guidelines. We also actively collaborate with several specialized initiatives such as the [Gramene](http://www.gramene.org/) consortium and [OpenTargets](https://www.opentargets.org/) and prioritize experiments that are of special interest to our partners. Please do not hesitate to [contact our team](https://www.ebi.ac.uk/support/gxa) if you have any questions about how we select experiments for Expression Atlas or you wish to recommend a dataset(s) that you feel should be ingested and displayed in this resource.
+If an experiment is judged to be of particular interest and its inclusion in Expression Atlas is highly valuable for the community, we may decide to include it even if it fails some of the above guidelines. We also actively collaborate with several specialized initiatives such as the <a href="http://www.gramene.org/" target="_blank">Gramene</a> consortium and <a href="https://www.opentargets.org/" target="_blank">OpenTargets</a> and prioritize experiments that are of special interest to our partners. Please do not hesitate to <a href="https://www.ebi.ac.uk/support/gxa" target="_blank">contact our team</a> if you have any questions about how we select experiments for Expression Atlas or you wish to recommend a dataset(s) that you feel should be ingested and displayed in this resource.
 
 ### How can I obtain the original data for an experiment?
 
-The original raw and processed data files for experiments in Expression Atlas can be found by viewing the experiment in [ArrayExpress](https://www.ebi.ac.uk/arrayexpress). On any **Experiment page**, e.g. [RNA-seq of 934 human cancer cell lines from the Cancer Cell Line Encyclopedia](/gxa/experiments/E-MTAB-2770) click on the ![array express button](assets/img/ae-logo.png) button in the **Resources** tab to view the experiment in ArrayExpress. The original submitted data files can be downloaded as zip archives, and sample annotation is available in MAGE-TAB format text files. See the online tutorial [ ArrayExpress: Discover functional genomics data quickly and easily](https://www.ebi.ac.uk/training/online/course/arrayexpress-discover-functional-genomics-data-qui/files-and-download) for further information.
+The original raw and processed data files for experiments in Expression Atlas can be found by viewing the experiment in <a href="https://www.ebi.ac.uk/arrayexpress" target="_blank">ArrayExpress</a>. On any **Experiment page**, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2770" target="_blank">RNA-seq of 934 human cancer cell lines from the Cancer Cell Line Encyclopedia</a> click on the ![array express button](assets/img/ae-logo.png) button in the **Resources** tab to view the experiment in ArrayExpress. The original submitted data files can be downloaded as zip archives, and sample annotation is available in MAGE-TAB format text files. See the online tutorial [ ArrayExpress: Discover functional genomics data quickly and easily](https://www.ebi.ac.uk/training/online/course/arrayexpress-discover-functional-genomics-data-qui/files-and-download) for further information.
 
 ### It doesn't look like the whole of the original experiment is in Expression Atlas, why not?
 
