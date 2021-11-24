@@ -281,7 +281,7 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 *   [How do I find out in which conditions my favourite gene is expressed?](#how-do-i-find-out-in-which-conditions-my-favourite-gene-is-expressed)
 *   [How do I search for multiple genes at once?](#how-do-i-search-for-multiple-genes-at-once)
 *   [What gene identifiers can I use to search?](#what-gene-identifiers-can-i-use-to-search)
-*   [How do I find a particular experiment?](#how-do-i-find-a-particular-experiment)
+*   <a href="https://ebi-gene-expression-group.github.io/atlas-faqs/atlas-faqs.html#how-do-i-find-a-particular-experiment" target="atlas_faqs">How do I find a particular experiment?</a>
 *   [Can I search Expression Atlas programmatically?](#are-there-any-alternative-ways-of-searching-in-atlas)
 
 ##### [Results](#results)
