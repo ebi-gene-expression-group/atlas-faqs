@@ -260,7 +260,7 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 
 ##### [General](#general-questions)
 
-*   <a href="https://ebi-gene-expression-group.github.io/atlas-faqs/atlas-faqs.html#what-is-expression-atlas" target="atlas_faqs">What is Expression Atlas</a>
+*   [What is Expression Atlas](#what-is-expression-atlas)
 *   [How are experiments chosen to be in Expression Atlas?](#what-experiments-can-be-included-in-expression-atlas)
 *   [How can I obtain the original data for an experiment?](#how-can-i-obtain-the-original-data-for-an-experiment)
 *   [It doesn't look like the whole of the original experiment is in Expression Atlas, why not?](#it-doesnt-look-like-the-whole-of-the-original-experiment-is-in-expression-atlas-why-not)
@@ -281,7 +281,7 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 *   [How do I find out in which conditions my favourite gene is expressed?](#how-do-i-find-out-in-which-conditions-my-favourite-gene-is-expressed)
 *   [How do I search for multiple genes at once?](#how-do-i-search-for-multiple-genes-at-once)
 *   [What gene identifiers can I use to search?](#what-gene-identifiers-can-i-use-to-search)
-*   <a href="https://ebi-gene-expression-group.github.io/atlas-faqs/atlas-faqs.html#how-do-i-find-a-particular-experiment" target="atlas_faqs">How do I find a particular experiment?</a>
+*   [How do I find a particular experiment?](#how-do-i-find-a-particular-experiment)
 *   [Can I search Expression Atlas programmatically?](#are-there-any-alternative-ways-of-searching-in-atlas)
 
 ##### [Results](#results)
