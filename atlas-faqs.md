@@ -260,7 +260,7 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 
 ##### [General](#general-questions)
 
-*   [What is Expression Atlas](#what-is-expression-atlas)
+*   <a href="https://ebi-gene-expression-group.github.io/atlas-faqs/atlas-faqs.html#what-is-expression-atlas" target="atlas_faqs">What is Expression Atlas</a>
 *   [How are experiments chosen to be in Expression Atlas?](#what-experiments-can-be-included-in-expression-atlas)
 *   [How can I obtain the original data for an experiment?](#how-can-i-obtain-the-original-data-for-an-experiment)
 *   [It doesn't look like the whole of the original experiment is in Expression Atlas, why not?](#it-doesnt-look-like-the-whole-of-the-original-experiment-is-in-expression-atlas-why-not)
