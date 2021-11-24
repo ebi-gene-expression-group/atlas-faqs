@@ -92,7 +92,7 @@ If you would like to stay up-to-date with news about our latest releases and dev
 
 Yes! The anatomical diagrams (anatomograms) that you see alongside the baseline data are available from [GitHub](https://github.com/gxa/anatomogram/). The anatomograms are licenced under [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/); if you’d like to use them, all we ask is that you attribute [Expression Atlas](/gxa) when you do.
 
-##Searching
+## Searching
 
 ### How do I find out what genes are expressed in a particular condition (e.g. in my favourite tissue, cell line, developmental stage)?
 
@@ -155,7 +155,7 @@ Show me comparisons where [zinc finger](https://www.ebi.ac.uk/interpro/entry/IPR
 
 https://www.ebi.ac.uk/gxa/search?geneQuery=\[{"value":"zinc finger"}\]&organism=Mus musculus#differential
 
-##Results
+## Results
 
 ### When I search in Expression Atlas, what do the Baseline Expression results show?
 
@@ -276,7 +276,7 @@ On the other hand, by clicking on the _Downloads_ tab of the experiment page you
 
 ##### [Searching](#searching)
 
-*   [How do I find out what genes are expressed in a particular condition (e.g. in my favourite tissue, cell line, developmental stage)?](#how-do-I-find-out-what-genes-are-expressed-in-a-particular-condition-e-g-in-my-favourite-tissue-cell-line-developmental-stage)
+*   [How do I find out what genes are expressed in a particular condition (e.g. in my favourite tissue, cell line, developmental stage)?](#how-do-i-find-out-what-genes-are-expressed-in-a-particular-condition-eg-in-my-favourite-tissue-cell-line-developmental-stage)
 *   [How do I search for multiple conditions at once?](#how-do-i-search-for-multiple-conditions-at-once)
 *   [How do I find out in which conditions my favourite gene is expressed?](#how-do-i-find-out-in-which-conditions-my-favourite-gene-is-expressed)
 *   [How do I search for multiple genes at once?](#how-do-i-search-for-multiple-genes-at-once)
