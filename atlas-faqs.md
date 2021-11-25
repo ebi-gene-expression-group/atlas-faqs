@@ -140,7 +140,7 @@ It's best if you contact us and we will be able to advise you on your specific u
 In the meantime, you can construct queries using URLs like the ones in the table below. Please be aware that the format of these URLs is subject to change. If your queries stop working, please check back here for the latest standard or get in touch with us through <a href="https://www.ebi.ac.uk/support/gxa" target="_blank">the EBI Support & feedback form.</a>
 
 | Query        | URL          |
-| ------------ | ------------
+| :---: | :---:
 | In what conditions is <a href="https://www.ebi.ac.uk/gxa/genes/ENSG00000066279" target="_blank">ASPM</a> differentially expressed? | <a href="https://www.ebi.ac.uk/gxa/search?geneQuery=%5B%7B%22value%22%3A%22ASPM%22%7D%5D#differential" target="_blank">https://www.ebi.ac.uk/gxa/search?geneQuery=[{"value":"ASPM"}]#differential</a>
 | What genes are differentially expressed in cancer? | <a href="https://www.ebi.ac.uk/gxa/search?conditionQuery=%5B%7B%22value%22%3A%22cancer%22%7D%5D#differential" target="_blank">https://www.ebi.ac.uk/gxa/search?conditionQuery=[{"value":"cancer"}]#differential</a>
 | Show me comparisons where <a href="https://www.ebi.ac.uk/interpro/entry/IPR007087" target="_blank">zinc finger</a> genes are differentially expressed in mice. | <a href="https://www.ebi.ac.uk/gxa/search?geneQuery=%5B%7B%22value%22%3A%22zinc%20finger%22%7D%5D&organism=Mus%20musculus#differential" target="_blank">https://www.ebi.ac.uk/gxa/search?geneQuery=[{"value":"zinc finger"}]&organism=Mus musculus#differential</a>
