@@ -86,7 +86,7 @@ If you have any questions, problems or suggestions we would love to hear from yo
 
 ### How can I keep up with the latest Expression Atlas news?
 
-If you would like to stay up-to-date with news about our latest releases and developments, please subscribe to the <a href="https://listserver.ebi.ac.uk/mailman/listinfo/arrayexpress-atlas" target="_blank">Expression Atlas mailing list</a>.
+If you would like to stay up-to-date with news about our latest releases and developments, please follow us on  <a href="https://twitter.com/ExpressionAtlas" target="_blank">Twitter</a> and check out official announcements at <a href="https://www.ebi.ac.uk" target="_blank">the EBI home page.</a>
 
 ### Can I use Expression Atlas anatomograms on my website?
 
