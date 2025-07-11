@@ -177,6 +177,9 @@ In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MT
 
 Expression levels are displayed in the heatmap by colour intensity, according to the gradient bar above the heatmap. Hover the mouse above a cell to show a tooltip with the numerical values corresponding to each colour.
 
+### Can I get marker genes for the different experimental groups?
+
+
 ### Can I download the baseline expression results?
 
 Yes, click on the ![Download All Results button](assets/img/download-all-results-button.png) button above the heatmap to download the data corresponding to your query. For example, if you select 'flower' in the **Organism part** box, use the **Download all results** button to download expression data for the <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552/Results?specific=true&geneQuery=%255B%255D&filterFactors=%257B%2522ORGANISM_PART%2522%253A%255B%2522flower%2522%252C%2522stamen%2522%255D%257D&cutoff=%257B%2522value%2522%253A0.5%257D&unit=%2522TPM%2522" target="_blank"> subset of genes specifically expressed in flower</a> in tab-delimited format with no ordering.
