@@ -179,6 +179,7 @@ Expression levels are displayed in the heatmap by colour intensity, according to
 
 ### Can I get marker genes for the different experimental groups?
 
+By checking the 'Most specific' option, an experiment heatmap shows gene expression levels for the 50 most specifically expressed genes across all conditions studied in the experiment selected. Since <a href="https://www.ebi.ac.uk/gxa/release-notes.html" target="_blank">release #42</a>, we have been calculating marker genes in baseline RNA-seq studies using <a href="https://bioconductor.org/packages/MGFR" target="_blank">MGFR</a>. For each gene, MGFR checks whether its highest expression values occur exclusively in one tissue type and exceed a given threshold, and then calculates a specificity score based on the contrast in expression across different conditions <a href="https://europepmc.org/article/MED/31179178" target="_blank"> (El Amrani et al., 2019)</a>. The results (Specificity score < 0.3, Expression level > 0.5) are available in our FTP, and we plan to enable their visualisation in the heatmap in upcoming releases.
 
 ### Can I download the baseline expression results?
 
