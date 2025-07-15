@@ -177,6 +177,10 @@ In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MT
 
 Expression levels are displayed in the heatmap by colour intensity, according to the gradient bar above the heatmap. Hover the mouse above a cell to show a tooltip with the numerical values corresponding to each colour.
 
+### Can I get marker genes for the different experimental groups?
+
+By checking the 'Most specific' option, an experiment heatmap shows gene expression levels for the 50 most specifically expressed genes across all conditions studied in the experiment selected. Since <a href="https://www.ebi.ac.uk/gxa/release-notes.html" target="_blank">release #42</a>, we have been calculating marker genes in baseline RNA-seq studies using <a href="https://bioconductor.org/packages/MGFR" target="_blank">MGFR</a>. For each gene, MGFR checks whether its highest expression values occur exclusively in one assay and exceed a given threshold, and then calculates a specificity score based on the contrast in expression across different conditions <a href="https://europepmc.org/article/MED/31179178" target="_blank"> (El Amrani et al., 2019)</a>. The results (Specificity score < 0.3, Expression level > 0.5) are available in our <a href="http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/experiments/" target="_blank">FTP</a>, and we plan to enable their visualisation in the heatmap in upcoming releases.
+
 ### Can I download the baseline expression results?
 
 Yes, click on the ![Download All Results button](assets/img/download-all-results-button.png) button above the heatmap to download the data corresponding to your query. For example, if you select 'flower' in the **Organism part** box, use the **Download all results** button to download expression data for the <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552/Results?specific=true&geneQuery=%255B%255D&filterFactors=%257B%2522ORGANISM_PART%2522%253A%255B%2522flower%2522%252C%2522stamen%2522%255D%257D&cutoff=%257B%2522value%2522%253A0.5%257D&unit=%2522TPM%2522" target="_blank"> subset of genes specifically expressed in flower</a> in tab-delimited format with no ordering.
