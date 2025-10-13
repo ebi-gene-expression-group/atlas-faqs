@@ -173,13 +173,13 @@ You can further refine the query by narrowing the search to a particular gene (e
 
 ### In the experiment page, how are baseline expression levels represented?
 
-In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552" target="_blank">Transcription profiling by high throughput sequencing of different potato tissues (genotype RH89-039-16)</a>expression levels are represented in one heatmap that shows gene expression levels for the 50 most specifically expressed genes (rows) across all conditions studied in the experiment selected (columns).
+In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552" target="_blank">Transcription profiling by high throughput sequencing of different potato tissues (genotype RH89-039-16)</a> expression levels are represented in one heatmap that by default shows expression for up to 50 marker genes / minimum of one top marker gene per condition (rows), across all conditions (columns) studied in the experiment.
 
 Expression levels are displayed in the heatmap by colour intensity, according to the gradient bar above the heatmap. Hover the mouse above a cell to show a tooltip with the numerical values corresponding to each colour.
 
-### Can I get marker genes for the different experimental groups?
+### How are the marker genes for individual experimental groups calculated?
 
-By checking the 'Most specific' option, an experiment heatmap shows gene expression levels for the 50 most specifically expressed genes across all conditions studied in the experiment selected. Since <a href="https://www.ebi.ac.uk/gxa/release-notes.html" target="_blank">release #42</a>, we have been calculating marker genes in baseline RNA-seq studies using <a href="https://bioconductor.org/packages/MGFR" target="_blank">MGFR</a>. For each gene, MGFR checks whether its highest expression values occur exclusively in one assay and exceed a given threshold, and then calculates a specificity score based on the contrast in expression across different conditions <a href="https://europepmc.org/article/MED/31179178" target="_blank"> (El Amrani et al., 2019)</a>. The results (Specificity score < 0.3, Expression level > 0.5) are available in our <a href="http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/experiments/" target="_blank">FTP</a>, and we plan to enable their visualisation in the heatmap in upcoming releases.
+Since <a href="https://www.ebi.ac.uk/gxa/release-notes.html" target="_blank">release #42</a>, we have been calculating marker genes in baseline RNA-seq studies using <a href="https://bioconductor.org/packages/MGFR" target="_blank">MGFR</a>. For each gene, MGFR checks whether its highest expression values occur exclusively in one assay and exceed a given threshold, and then calculates a specificity score based on the contrast in expression across different conditions <a href="https://europepmc.org/article/MED/31179178" target="_blank"> (El Amrani et al., 2019)</a>. The results (Specificity score < 0.3, Expression level > 0.5) are visualised in the gene expression heatmap on each experiment page and the full marker genes list is also available for download from our <a href="http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/experiments/" target="_blank">FTP</a>.
 
 ### Can I download the baseline expression results?
 
