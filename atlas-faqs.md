@@ -173,7 +173,7 @@ You can further refine the query by narrowing the search to a particular gene (e
 
 ### In the experiment page, how are baseline expression levels represented?
 
-In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552" target="_blank">Transcription profiling by high throughput sequencing of different potato tissues (genotype RH89-039-16)</a> expression levels are represented in one heatmap that by default shows expression for up to 50 marker genes / minimum of one top marker gene per condition (rows), across all conditions (columns) studied in the experiment.
+In the Experiment page, e.g. <a href="https://www.ebi.ac.uk/gxa/experiments/E-MTAB-552" target="_blank">Transcription profiling by high throughput sequencing of different potato tissues (genotype RH89-039-16)</a> expression levels are represented in one heatmap that by default shows expression for up to 50 (or minimum one per condition) marker gene(s) (rows), across all conditions (columns) studied in the experiment.
 
 Expression levels are displayed in the heatmap by colour intensity, according to the gradient bar above the heatmap. Hover the mouse above a cell to show a tooltip with the numerical values corresponding to each colour.
 
