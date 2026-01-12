@@ -92,6 +92,8 @@ If you would like to stay up-to-date with news about our latest releases and dev
 
 Yes! The anatomical diagrams (anatomograms) that you see alongside the baseline data are available from <a href="https://github.com/gxa/anatomogram/" target="_blank">GitHub</a>. The anatomograms are licenced under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution (CC BY)</a>; if you’d like to use them, all we ask is that you attribute <a href="https://www.ebi.ac.uk/gxa" target="_blank">Expression Atlas</a> when you do.
 
+📖 **[Expression Atlas in 2026: enabling FAIR and open expression data through community collaboration and integration](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf1238/8376685)** (*Nucleic Acids Research*, 10 December 2025).
+
 ## Searching
 
 ### How do I find out what genes are expressed in a particular condition (e.g. in my favourite tissue, cell line, developmental stage)?
