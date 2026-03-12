@@ -49,7 +49,7 @@ Microarray data quality is assessed using the <a href="https://www.bioconductor.
 
 ### How is RNA-seq data quality controlled?
 
-RNA-seq reads are discarded based on several criteria. First, reads with quality scores less than Q10 are removed. Second, the reads are mapped against a contamination reference genome (_E. coli_ for animal data, fungal and microbial non-redundant reference for plants). Any reads that map to the contamination reference are removed. Third, reads with "uncalled" characters (i.e. "N"s) are discarded. Lastly, for paired-end libraries, any reads whose mate was lost in the previous three steps are also discarded. Please see the <a href="https://nunofonseca.github.io/irap/" target="_blank">iRAP</a> <a href="http://biorxiv.org/content/early/2014/06/06/005991" target="_blank">documentation</a> for more details on the methods used.
+The <a href="https://nf-co.re/rnaseq/3.23.0/" target="_blank">nf-core/rnaseq</a> pipeline implements comprehensive quality control during preprocessing by running FastQC on both raw and trimmed reads to assess quality scores, adapter contamination, GC content, and sequence composition. <a href="https://github.com/FelixKrueger/TrimGalore" target="_blank">Trim Galore!</a> perform adapter and quality trimming while reporting the percentage of bases removed. fq lint validates FASTQ file integrity upfront, and for UMI-based libraries, UMI-tools extracts molecular barcodes with detailed logging. All preprocessing metrics are consolidated in an interactive MultiQC report.
 
 ### How is microarray data analysed?
 
@@ -57,7 +57,7 @@ Raw single-channel microarray intensities are normalized using <a href="https://
 
 ### How is RNA-seq data analysed?
 
-RNA-seq data is analysed using the <a href="https://nunofonseca.github.io/irap/" target="_blank">iRAP</a> pipeline. Quality-filtered reads are aligned to the latest version of the reference genome from <a href="https://www.ensembl.org/index.html" target="_blank">Ensembl</a> using <a href="https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36" target="_blank">TopHat2</a>. Raw counts (number of mapped reads summarized and aggregated over each gene) are generated using <a href="http://htseq.readthedocs.io/" target="_blank">htseq-count</a>. Then, FPKM (fragments per kilobase of exon model per million mapped reads) and TPM (transcripts per million) are calculated. Pairwise comparisons are performed using a conditioned test based on the negative binomial distribution, using <a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq.html" target="_blank">DESeq</a>.
+RNA-seq data is analysed using the <a href="https://nf-co.re/rnaseq/3.23.0/" target="_blank">nf-core/rnaseq</a> pipeline. Quality-filtered reads are aligned to the latest version of the reference genome from <a href="https://www.ensembl.org/index.html" target="_blank">Ensembl</a> using <a href="https://www.ncbi.nlm.nih.gov/pubmed/23104886" target="_blank">STAR</a>. Raw counts (number of mapped reads summarized and aggregated over each gene) and TPM (transcripts per million) are generated using <a href="https://pubmed.ncbi.nlm.nih.gov/28263959/" target="_blank">Salmon</a>. Pairwise comparisons are performed using a conditioned test based on the negative binomial distribution, using <a href="https://www.bioconductor.org/packages/release/bioc/html/DESeq.html" target="_blank">DESeq</a>.
 
 ### What are FPKM and TPM?
 
@@ -75,6 +75,8 @@ where _qi_ are raw counts (number of reads that mapped for each gene), _li_ is g
 <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323" target="_blank">Li and Dewey, 2011</a> introduced the unit TPM and <a href="https://arxiv.org/abs/1104.3889" target="_blank">Pachter, 2011</a> established the relationship between both units. It is possible to compute TPM from FPKM as follows:
 
 ![tpm formula](assets/img/tpm.png)
+
+Since, migration from legacy the <a href="https://nunofonseca.github.io/irap/" target="_blank">iRAP</a> pipeline to nf-core/rnaseq, we have dropped the FPKM. 
 
 ### How do I see how an individual experiment was analysed?
 
